@@ -21,17 +21,3 @@ st.latex(r"V = IR")
 
 st.write("These equations are commonly used in physics.")
 
-import streamlit as st
-
-st.title("Physics Calculator")
-
-st.header("Newton's Second Law")
-
-mass = st.number_input("Enter mass (kg)")
-acceleration = st.number_input("Enter acceleration (m/s²)")
-
-force = mass * acceleration
-
-st.write("Force =", force, "N")
-
-st.latex(r"F = ma")
